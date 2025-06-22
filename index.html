@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somnath Travels - Giridih, Jharkhand | Pilgrimage Tours & Car Rentals</title>
+    <meta name="description" content="Somnath Travels offers pilgrimage tours to Shikharji, car rentals, and customized travel packages from Giridih, Jharkhand. Book your spiritual journey today!">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2IDJMMjYgMTJMMTYgMjJMNiAxMkwxNiAyWiIgZmlsbD0iI0VBNTgwQyIvPgo8L3N2Zz4K">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-mountain"></i>
+                    <div class="logo-text">
+                        <h1>Somnath Travels</h1>
+                        <p>Giridih, Jharkhand</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#packages">Packages</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div class="header-actions">
+                    <a href="tel:+917677854525" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <nav class="mobile-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#packages">Packages</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="tel:+917677854525" class="btn btn-primary">
+                    <i class="fas fa-phone"></i>
+                    Call Now
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDgwIiB2aWV3Qm94PSIwIDAgMTkyMCAxMDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZGVmcz4KPGF4aWFsR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSIxOTIwIiB5Mj0iMTA4MCI+CjxzdG9wIHN0b3AtY29sb3I9IiNGRjc5NDMiLz4KPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNGRjU3MjIiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRUE1ODBDIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPHJlY3Qgd2lkdGg9IjE5MjAiIGhlaWdodD0iMTA4MCIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyXzBfMSkiLz4KPCEtLSBUZW1wbGUgU2lsaG91ZXR0ZSAtLT4KPHBhdGggZD0iTTk2MCA0MDBMMTEwMCA1MDBMMTA4MCA2MDBIODQwTDgyMCA1MDBMOTYwIDQwMFoiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4zKSIvPgo8cGF0aCBkPSJNOTYwIDQwMEw5ODAgMzgwTDEwMDAgNDAwTDEwMjAgMzgwTDEwNDAgNDAwTDEwNjAgMzgwTDEwODAgNDAwTDExMDAgNTAwTDEwODAgNjAwSDg0MEw4MjAgNTAwTDg0MCAzODBMODYwIDQwMEw4ODAgMzgwTDkwMCA0MDBMOTIwIDM4MEw5NDAgNDAwTDk2MCAzODBMOTYwIDQwMFoiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4yKSIvPgo8IS0tIE1vdW50YWlucyAtLT4KPHBhdGggZD0iTTAgNjAwTDIwMCA0MDBMNDAwIDUwMEw2MDAgMzAwTDgwMCA0NTBMMTAwMCAzNTBMMTIwMCA0MDBMMTQwMCAzMDBMMTYwMCA0NTBMMTgwMCAzNTBMMTkyMCA0MDBWMTA4MEgwVjYwMFoiIGZpbGw9InJnYmEoMCwwLDAsMC4xKSIvPgo8IS0tIENsb3VkcyAtLT4KPGVsbGlwc2UgY3g9IjMwMCIgY3k9IjIwMCIgcng9IjgwIiByeT0iNDAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC40KSIvPgo8ZWxsaXBzZSBjeD0iMTYwMCIgY3k9IjE1MCIgcng9IjEwMCIgcnk9IjUwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNCkiLz4KPGVsbGlwc2UgY3g9IjEyMDAiIGN5PSIxMDAiIHJ4PSI2MCIgcnk9IjMwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMykiLz4KPC9zdmc+" alt="Shikharji Temple" loading="lazy">
+            <div class="hero-overlay"></div>
+            <div class="floating-particles">
+                <div class="particle particle-1"></div>
+                <div class="particle particle-2"></div>
+                <div class="particle particle-3"></div>
+                <div class="particle particle-4"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-icon">
+                <i class="fas fa-mountain"></i>
+            </div>
+            <h1 class="hero-title">Explore Spiritual & Scenic Journeys</h1>
+            <p class="hero-subtitle">with Somnath Travels, Giridih</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary btn-large">
+                    <i class="fas fa-calendar"></i>
+                    Book Now
+                </a>
+                <a href="#packages" class="btn btn-outline btn-large">
+                    View Packages
+                </a>
+                <a href="https://wa.me/917677854525" class="btn btn-whatsapp btn-large" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Somnath Travels</h2>
+                <p>Established in the heart of Giridih, Jharkhand, we specialize in creating unforgettable spiritual and scenic journeys</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDYwMCA0MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI2MDAiIHkyPSI0MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0I4MkY2Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0VBNTgwQyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIE9mZmljZSBCdWlsZGluZyAtLT4KPHJlY3QgeD0iMjAwIiB5PSIxNTAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSIxMCIvPgo8cmVjdCB4PSIyMjAiIHk9IjE3MCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC41KSIvPgo8cmVjdCB4PSIyODAiIHk9IjE3MCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC41KSIvPgo8cmVjdCB4PSIzNDAiIHk9IjE3MCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC41KSIvPgo8cmVjdCB4PSIyMjAiIHk9IjIzMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC41KSIvPgo8cmVjdCB4PSIyODAiIHk9IjIzMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC41KSIvPgo8cmVjdCB4PSIzNDAiIHk9IjIzMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC41KSIvPgo8cmVjdCB4PSIyNzAiIHk9IjI5MCIgd2lkdGg9IjYwIiBoZWlnaHQ9IjYwIiBmaWxsPSJyZ2JhKDIzNCwxNzksOCwwLjcpIiByeD0iNSIvPgo8IS0tIFBlb3BsZSAtLT4KPGNpcmNsZSBjeD0iMTUwIiBjeT0iMjgwIiByPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxjaXJjbGUgY3g9IjQ1MCIgY3k9IjI4MCIgcj0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgo8cmVjdCB4PSIxMzAiIHk9IjMwMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjUwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiIHJ4PSI1Ii8+CjxyZWN0IHg9IjQzMCIgeT0iMzAwIiB3aWR0aD0iNDAiIGhlaWdodD0iNTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIgcng9IjUiLz4KPCEtLSBTaWduIC0tPgo8cmVjdCB4PSIyNDAiIHk9IjEyMCIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIiByeD0iMTAiLz4KPC9zdmc+" alt="Somnath Travels Office" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <h3>Your Trusted Travel Partner</h3>
+                    <p>With deep local expertise and years of experience, Somnath Travels has been serving pilgrims and travelers from across India. We understand the spiritual significance of places like Shikharji and the natural beauty of Jharkhand's landscapes.</p>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>1000+</h4>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h4>10+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Trusted & Reliable Service</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>24/7 Customer Support</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Personalized Travel Experiences</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid-main">
+                <div class="stat-card">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Happy Travelers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Destinations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Tour Packages</h2>
+                <p>Discover our carefully crafted travel experiences</p>
+            </div>
+
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI0MDAiIHkyPSIzMDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkZCRjAwIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGNzk0MyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIFRlbXBsZSAtLT4KPHBhdGggZD0iTTIwMCA1MEwyNTAgMTAwSDMwMFYyMDBIMTAwVjEwMEgxNTBMMjAwIDUwWiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIi8+CjxwYXRoIGQ9Ik0yMDAgNTBMMjIwIDMwTDI0MCA1MEwyNjAgMzBMMjgwIDUwTDMwMCAxMDBIMTAwTDEyMCAzMEwxNDAgNTBMMTYwIDMwTDE4MCA1MEwyMDAgMzBMMjAwIDUwWiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9IjE4MCIgeT0iMTIwIiB3aWR0aD0iNDAiIGhlaWdodD0iODAiIGZpbGw9InJnYmEoMTM5LDY5LDE5LDAuOCkiLz4KPCEtLSBTdGVwcyAtLT4KPHJlY3QgeD0iNTAiIHk9IjIyMCIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIi8+CjxyZWN0IHg9IjcwIiB5PSIyMzAiIHdpZHRoPSIyNjAiIGhlaWdodD0iMTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIvPgo8cmVjdCB4PSI5MCIgeT0iMjQwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjEwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNykiLz4KPCEtLSBQZW9wbGUgLS0+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjI2MCIgcj0iOCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjI2MCIgcj0iOCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9Ijk1IiB5PSIyNjgiIHdpZHRoPSIxMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9IjI5NSIgeT0iMjY4IiB3aWR0aD0iMTAiIGhlaWdodD0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgo8L3N2Zz4=" alt="Shikharji Pilgrimage Package" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3>Shikharji Pilgrimage Package</h3>
+                        <p>Complete spiritual journey to Shikharji with comfortable accommodation and guided tours.</p>
+                        <div class="package-details">
+                            <span class="price">₹8,999</span>
+                            <span class="duration">
+                                <i class="fas fa-clock"></i>
+                                3 Days 2 Nights
+                            </span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="bookPackage('Shikharji Pilgrimage Package', '₹8,999')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI0MDAiIHkyPSIzMDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkY5NTAwIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGNTcyMiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEJvZGhpIFRyZWUgLS0+CjxjaXJjbGUgY3g9IjIwMCIgY3k9IjEwMCIgcj0iNjAiIGZpbGw9InJnYmEoMzQsMTk3LDk0LDAuOCkiLz4KPHJlY3QgeD0iMTk1IiB5PSIxNjAiIHdpZHRoPSIxMCIgaGVpZ2h0PSI2MCIgZmlsbD0icmdiYSgxMzksNjksMTksMC44KSIvPgo8IS0tIEJ1ZGRoYSBTdGF0dWUgLS0+CjxjaXJjbGUgY3g9IjIwMCIgY3k9IjE4MCIgcj0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8cGF0aCBkPSJNMjAwIDE2MEwyMTAgMTcwSDIzMFYyMDBIMTcwVjE3MEgxOTBMMjAwIDE2MFoiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8IS0tIE1vbmtzIC0tPgo8Y2lyY2xlIGN4PSIxMDAiIGN5PSIyNDAiIHI9IjEwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPGNpcmNsZSBjeD0iMzAwIiBjeT0iMjQwIiByPSIxMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9Ijk1IiB5PSIyNTAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIzMCIgZmlsbD0icmdiYSgyNTUsMTY1LDApLDAuOCkiLz4KPHJlY3QgeD0iMjk1IiB5PSIyNTAiIHdpZHRoPSIxMCIgaGVpZ2h0PSIzMCIgZmlsbD0icmdiYSgyNTUsMTY1LDApLDAuOCkiLz4KPCEtLSBQcmF5ZXIgRmxhZ3MgLS0+CjxwYXRoIGQ9Ik01MCA1MEw3MCA0MEw5MCA1MEw3MCA2MEw1MCA1MFoiIGZpbGw9InJnYmEoMjU1LDAsNzUsMC43KSIvPgo8cGF0aCBkPSJNMzEwIDUwTDMzMCA0MEwzNTAgNTBMMzMwIDYwTDMxMCA1MFoiIGZpbGw9InJnYmEoMjU1LDAsNzUsMC43KSIvPgo8L3N2Zz4=" alt="Giridih to Bodh Gaya Tour" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3>Giridih to Bodh Gaya Tour</h3>
+                        <p>Sacred Buddhist pilgrimage from Giridih to Bodh Gaya with all major sites covered.</p>
+                        <div class="package-details">
+                            <span class="price">₹12,999</span>
+                            <span class="duration">
+                                <i class="fas fa-clock"></i>
+                                4 Days 3 Nights
+                            </span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="bookPackage('Giridih to Bodh Gaya Tour', '₹12,999')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI0MDAiIHkyPSIzMDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjMTBCOTgxIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OUY0NiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIE1vdW50YWlucyAtLT4KPHBhdGggZD0iTTAgMjAwTDEwMCA4MEwyMDAgMTIwTDMwMCA2MEw0MDAgMTAwVjMwMEgwVjIwMFoiIGZpbGw9InJnYmEoMCwwLDAsMC4yKSIvPgo8cGF0aCBkPSJNMCAxODBMODAgMTAwTDE2MCA4MEwyNDAgNDBMMzIwIDgwTDQwMCAxMjBWMzAwSDBWMTgwWiIgZmlsbD0icmdiYSgwLDAsMCwwLjEpIi8+CjwhLS0gVHJlZXMgLS0+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjE4MCIgcj0iMjAiIGZpbGw9InJnYmEoMzQsMTk3LDk0LDAuOCkiLz4KPGNpcmNsZSBjeD0iMzAwIiBjeT0iMTYwIiByPSIyNSIgZmlsbD0icmdiYSgzNCwxOTcsOTQsMC44KSIvPgo8Y2lyY2xlIGN4PSIyMDAiIGN5PSIxNzAiIHI9IjE4IiBmaWxsPSJyZ2JhKDM0LDE5Nyw5NCwwLjgpIi8+CjxyZWN0IHg9Ijk4IiB5PSIyMDAiIHdpZHRoPSI0IiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDEzOSw2OSwxOSwwLjgpIi8+CjxyZWN0IHg9IjI5OCIgeT0iMTg1IiB3aWR0aD0iNCIgaGVpZ2h0PSIzNSIgZmlsbD0icmdiYSgxMzksNjksMTksMC44KSIvPgo8cmVjdCB4PSIxOTgiIHk9IjE4OCIgd2lkdGg9IjQiIGhlaWdodD0iMzIiIGZpbGw9InJnYmEoMTM5LDY5LDE5LDAuOCkiLz4KPCEtLSBDbG91ZHMgLS0+CjxlbGxpcHNlIGN4PSIxMDAiIGN5PSI1MCIgcng9IjQwIiByeT0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIvPgo8ZWxsaXBzZSBjeD0iMzAwIiBjeT0iNDAiIHJ4PSI1MCIgcnk9IjI1IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNykiLz4KPCEtLSBCaXJkcyAtLT4KPHBhdGggZD0iTTUwIDEwMEw2MCA5NUw3MCA5MEw2MCA5NUw1MCA5MFoiIGZpbGw9InJnYmEoMCwwLDAsMC42KSIvPgo8cGF0aCBkPSJNMzUwIDEyMEwzNjAgMTE1TDM3MCAxMTBMMzYwIDExNUwzNTAgMTEwWiIgZmlsbD0icmdiYSgwLDAsMCwwLjYpIi8+Cjwvdmc+" alt="Jharkhand Hill Station Package" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3>Jharkhand Hill Station Package</h3>
+                        <p>Explore the beautiful hill stations of Jharkhand with scenic views and local culture.</p>
+                        <div class="package-details">
+                            <span class="price">₹15,999</span>
+                            <span class="duration">
+                                <i class="fas fa-clock"></i>
+                                5 Days 4 Nights
+                            </span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="bookPackage('Jharkhand Hill Station Package', '₹15,999')">View Details</button>
+                    </div>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDQwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI0MDAiIHkyPSIzMDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0I4MkY2Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzEwNDJBNSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIENhciAtLT4KPHJlY3QgeD0iMTAwIiB5PSIxNTAiIHdpZHRoPSIyMDAiIGhlaWdodD0iODAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIgcng9IjEwIi8+CjxyZWN0IHg9IjEyMCIgeT0iMTMwIiB3aWR0aD0iMTYwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDIwMCwyMDAsMjAwLDAuOSkiIHJ4PSI1Ii8+CjwhLS0gV2luZG93cyAtLT4KPHJlY3QgeD0iMTMwIiB5PSIxNDAiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSg1OSwxMzAsMjQ2LDAuNykiLz4KPHJlY3QgeD0iMTcwIiB5PSIxNDAiIHdpZHRoPSI2MCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSg1OSwxMzAsMjQ2LDAuNykiLz4KPHJlY3QgeD0iMjQwIiB5PSIxNDAiIHdpZHRoPSIzMCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSg1OSwxMzAsMjQ2LDAuNykiLz4KPCEtLSBXaGVlbHMgLS0+CjxjaXJjbGUgY3g9IjEzMCIgY3k9IjI0MCIgcj0iMjAiIGZpbGw9InJnYmEoNTUsNjUsODEsMC45KSIvPgo8Y2lyY2xlIGN4PSIyNzAiIGN5PSIyNDAiIHI9IjIwIiBmaWxsPSJyZ2JhKDU1LDY1LDgxLDAuOSkiLz4KPGNpcmNsZSBjeD0iMTMwIiBjeT0iMjQwIiByPSIxMCIgZmlsbD0icmdiYSgxNTYsMTYzLDE3NSwwLjkpIi8+CjxjaXJjbGUgY3g9IjI3MCIgY3k9IjI0MCIgcj0iMTAiIGZpbGw9InJnYmEoMTU2LDE2MywxNzUsMC45KSIvPgo8IS0tIERyaXZlciAtLT4KPGNpcmNsZSBjeD0iMTUwIiBjeT0iMTUwIiByPSIxNSIgZmlsbD0icmdiYSgyNTEsMTkxLDM2LDAuOCkiLz4KPCEtLSBSb2FkIC0tPgo8cmVjdCB4PSIwIiB5PSIyNjAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoNzUsODUsOTksMC44KSIvPgo8IS0tIFJvYWQgTWFya2luZ3MgLS0+CjxyZWN0IHg9IjAiIHk9IjI3OCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgo8cmVjdCB4PSI4MCIgeT0iMjc4IiB3aWR0aD0iNDAiIGhlaWdodD0iNCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9IjE2MCIgeT0iMjc4IiB3aWR0aD0iNDAiIGhlaWdodD0iNCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9IjI0MCIgeT0iMjc4IiB3aWR0aD0iNDAiIGhlaWdodD0iNCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9IjMyMCIgeT0iMjc4IiB3aWR0aD0iNDAiIGhlaWdodD0iNCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+Cjwvdmc+" alt="Car Rental with Driver" loading="lazy">
+                    </div>
+                    <div class="package-content">
+                        <h3>Car Rental with Driver</h3>
+                        <p>Comfortable car rental service with experienced drivers for local and outstation trips.</p>
+                        <div class="package-details">
+                            <span class="price">₹2,500/day</span>
+                            <span class="duration">
+                                <i class="fas fa-clock"></i>
+                                Flexible
+                            </span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="bookPackage('Car Rental with Driver', '₹2,500/day')">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Journey</h2>
+                <p>Fill out the form below and we'll get back to you shortly</p>
+            </div>
+
+            <div class="booking-form-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Booking Form</h3>
+                        <p>Please provide your details for a customized quote</p>
+                    </div>
+                    <div class="card-content">
+                        <form id="bookingForm" class="booking-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="package">Select Package</label>
+                                <select id="package" name="package">
+                                    <option value="">Choose a package</option>
+                                    <option value="shikharji">Shikharji Pilgrimage Package</option>
+                                    <option value="bodhgaya">Giridih to Bodh Gaya Tour</option>
+                                    <option value="hillstation">Jharkhand Hill Station Package</option>
+                                    <option value="carrental">Car Rental with Driver</option>
+                                    <option value="custom">Custom Package</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="date">Preferred Date</label>
+                                    <input type="date" id="date" name="date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="persons">Number of Persons</label>
+                                    <input type="number" id="persons" name="persons" min="1">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="notes">Special Requirements</label>
+                                <textarea id="notes" name="notes" rows="4" placeholder="Any special requirements or notes..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full btn-large">
+                                Submit Booking Request
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Travel Gallery</h2>
+                <p>Memories from our beautiful journeys</p>
+            </div>
+
+            <div class="gallery-container">
+                <div class="gallery-slider">
+                    <div class="gallery-image active">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI4MDAiIHkyPSI2MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkZCRjAwIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGNzk0MyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIE1haW4gVGVtcGxlIC0tPgo8cGF0aCBkPSJNNDAwIDEwMEw1MDAgMjAwSDYwMFY0MDBIMjAwVjIwMEgzMDBMNDAwIDEwMFoiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8cGF0aCBkPSJNNDAwIDEwMEw0MjAgODBMNDQwIDEwMEw0NjAgODBMNDgwIDEwMEw1MDAgODBMNTIwIDEwMEw1NDAgODBMNTYwIDEwMEw2MDAgMjAwSDIwMEwyNDAgODBMMjYwIDEwMEwyODAgODBMMzAwIDEwMEwzMjAgODBMMzQwIDEwMEwzNjAgODBMMzgwIDEwMEw0MDAgODBMNDAwIDEwMFoiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgo8IS0tIERvb3IgLS0+CjxyZWN0IHg9IjM3MCIgeT0iMjgwIiB3aWR0aD0iNjAiIGhlaWdodD0iMTIwIiBmaWxsPSJyZ2JhKDEzOSw2OSwxOSwwLjgpIi8+CjwhLS0gU3RlcHMgLS0+CjxyZWN0IHg9IjEwMCIgeT0iNDQwIiB3aWR0aD0iNjAwIiBoZWlnaHQ9IjIwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNykiLz4KPHJlY3QgeD0iMTQwIiB5PSI0NjAiIHdpZHRoPSI1MjAiIGhlaWdodD0iMjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIvPgo8cmVjdCB4PSIxODAiIHk9IjQ4MCIgd2lkdGg9IjQ0MCIgaGVpZ2h0PSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIi8+CjwhLS0gUGVvcGxlIC0tPgo8Y2lyY2xlIGN4PSIyMDAiIGN5PSI1MjAiIHI9IjE1IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPGNpcmNsZSBjeD0iNjAwIiBjeT0iNTIwIiByPSIxNSIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjgpIi8+CjxyZWN0IHg9IjE5MCIgeT0iNTM1IiB3aWR0aD0iMjAiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgo8cmVjdCB4PSI1OTAiIHk9IjUzNSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPC9zdmc+" alt="Beautiful Temple View" loading="lazy">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI4MDAiIHkyPSI2MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjMTBCOTgxIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OUY0NiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIE1vdW50YWlucyAtLT4KPHBhdGggZD0iTTAgNDAwTDIwMCAxNjBMNDAwIDI0MEw2MDAgMTIwTDgwMCAyMDBWNjAwSDBWNDAwWiIgZmlsbD0icmdiYSgwLDAsMCwwLjIpIi8+CjxwYXRoIGQ9Ik0wIDM2MEwxNjAgMjAwTDMyMCAxNjBMNDgwIDgwTDY0MCAyMDBMODAwIDI0MFY2MDBIMFYzNjBaIiBmaWxsPSJyZ2JhKDAsMCwwLDAuMSkiLz4KPCEtLSBDbG91ZHMgLS0+CjxlbGxpcHNlIGN4PSIyMDAiIGN5PSIxMDAiIHJ4PSI4MCIgcnk9IjQwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNykiLz4KPGVsbGlwc2UgY3g9IjYwMCIgY3k9IjgwIiByeD0iMTAwIiByeT0iNTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC43KSIvPgo8ZWxsaXBzZSBjeD0iNDAwIiBjeT0iNjAiIHJ4PSI2MCIgcnk9IjMwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNikiLz4KPCEtLSBUcmVlcyAtLT4KPGNpcmNsZSBjeD0iMTUwIiBjeT0iMzgwIiByPSI0MCIgZmlsbD0icmdiYSgzNCwxOTcsOTQsMC44KSIvPgo8Y2lyY2xlIGN4PSI2NTAiIGN5PSIzNjAiIHI9IjUwIiBmaWxsPSJyZ2JhKDM0LDE5Nyw5NCwwLjgpIi8+CjxjaXJjbGUgY3g9IjQwMCIgY3k9IjM3MCIgcj0iMzUiIGZpbGw9InJnYmEoMzQsMTk3LDk0LDAuOCkiLz4KPHJlY3QgeD0iMTQ4IiB5PSI0MjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjYwIiBmaWxsPSJyZ2JhKDEzOSw2OSwxOSwwLjgpIi8+CjxyZWN0IHg9IjY0OCIgeT0iNDEwIiB3aWR0aD0iNCIgaGVpZ2h0PSI3MCIgZmlsbD0icmdiYSgxMzksNjksMTksMC44KSIvPgo8cmVjdCB4PSIzOTgiIHk9IjQwNSIgd2lkdGg9IjQiIGhlaWdodD0iNjUiIGZpbGw9InJnYmEoMTM5LDY5LDE5LDAuOCkiLz4KPCEtLSBCaXJkcyAtLT4KPHBhdGggZD0iTTEwMCAyMDBMMTIwIDE5MEwxNDAgMTgwTDEyMCAxOTBMMTAwIDE4MFoiIGZpbGw9InJnYmEoMCwwLDAsMC42KSIvPgo8cGF0aCBkPSJNNzAwIDI0MEw3MjAgMjMwTDc0MCAyMjBMNzIwIDIzMEw3MDAgMjIwWiIgZmlsbD0icmdiYSgwLDAsMCwwLjYpIi8+Cjwvdmc+" alt="Scenic Mountain View" loading="lazy">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI4MDAiIHkyPSI2MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0I4MkY2Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzEwNDJBNSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEdyb3VwIG9mIFBlb3BsZSAtLT4KPGNpcmNsZSBjeD0iMjAwIiBjeT0iMjgwIiByPSIyNSIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIi8+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjI3MCIgcj0iMjUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8Y2lyY2xlIGN4PSI0MDAiIGN5PSIyODAiIHI9IjI1IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiLz4KPGNpcmNsZSBjeD0iNTAwIiBjeT0iMjc1IiByPSIyNSIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIi8+CjxjaXJjbGUgY3g9IjYwMCIgY3k9IjI4MCIgcj0iMjUiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8IS0tIEJvZGllcyAtLT4KPHJlY3QgeD0iMTg1IiB5PSIzMDUiIHdpZHRoPSIzMCIgaGVpZ2h0PSI2MCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIiByeD0iNSIvPgo8cmVjdCB4PSIyODUiIHk9IjI5NSIgd2lkdGg9IjMwIiBoZWlnaHQ9IjYwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSI1Ii8+CjxyZWN0IHg9IjM4NSIgeT0iMzA1IiB3aWR0aD0iMzAiIGhlaWdodD0iNjAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIgcng9IjUiLz4KPHJlY3QgeD0iNDg1IiB5PSIzMDAiIHdpZHRoPSIzMCIgaGVpZ2h0PSI2MCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIiByeD0iNSIvPgo8cmVjdCB4PSI1ODUiIHk9IjMwNSIgd2lkdGg9IjMwIiBoZWlnaHQ9IjYwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSI1Ii8+CjwhLS0gQmFja2dyb3VuZCBUZW1wbGUgLS0+CjxwYXRoIGQ9Ik00MDAgMTAwTDQ4MCAyMDBINTYwVjM2MEgyNDBWMjAwSDMyMEw0MDAgMTAwWiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIi8+CjwhLS0gRmxhZ3MgLS0+CjxwYXRoIGQ9Ik0xMDAgMTUwTDEyMCAxNDBMMTQwIDE1MEwxMjAgMTYwTDEwMCAxNTBaIiBmaWxsPSJyZ2JhKDI1NSw2NSw1NCwwLjcpIi8+CjxwYXRoIGQ9Ik02NjAgMTUwTDY4MCAxNDBMNzAwIDE1MEw2ODAgMTYwTDY2MCAxNTBaIiBmaWxsPSJyZ2JhKDI1NSw2NSw1NCwwLjcpIi8+CjxwYXRoIGQ9Ik0zODAgMTIwTDQwMCAxMTBMNDIwIDEyMEw0MDAgMTMwTDM4MCAxMjBaIiBmaWxsPSJyZ2JhKDI1NSw2NSw1NCwwLjcpIi8+Cjwvdmc+" alt="Pilgrimage Group" loading="lazy">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI4MDAiIHkyPSI2MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjMDU5RjQ2Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA0NzMzNyIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIE11bHRpcGxlIE1vdW50YWluIExheWVycyAtLT4KPHBhdGggZD0iTTAgNTAwTDE2MCAyMDBMMzIwIDMwMEw0ODAgMTUwTDY0MCAyNTBMODAwIDIwMFY2MDBIMFY1MDBaIiBmaWxsPSJyZ2JhKDAsMCwwLDAuMykiLz4KPHBhdGggZD0iTTAgNDYwTDEyMCAyNDBMMjQwIDIwMEwzNjAgMTAwTDQ4MCAyMDBMNjAwIDEyMEw3MjAgMTgwTDgwMCAxNDBWNjAwSDBWNDYwWiIgZmlsbD0icmdiYSgwLDAsMCwwLjIpIi8+CjxwYXRoIGQ9Ik0wIDQyMEw4MCAyODBMMTYwIDI0MEwyNDAgMTQwTDMyMCAxODBMNDAwIDEwMEw0ODAgMTYwTDU2MCA4MEw2NDAgMTQwTDcyMCAxMDBMODAwIDEyMFY2MDBIMFY0MjBaIiBmaWxsPSJyZ2JhKDAsMCwwLDAuMSkiLz4KPCEtLSBDbG91ZHMgLS0+CjxlbGxpcHNlIGN4PSIxNTAiIGN5PSI4MCIgcng9IjYwIiByeT0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC44KSIvPgo8ZWxsaXBzZSBjeD0iNjUwIiBjeT0iNjAiIHJ4PSI4MCIgcnk9IjQwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPGVsbGlwc2UgY3g9IjQwMCIgY3k9IjQwIiByeD0iNTAiIHJ5PSIyNSIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjcpIi8+CjwhLS0gVHJlZXMgLS0+CjxjaXJjbGUgY3g9IjEwMCIgY3k9IjQ0MCIgcj0iMzAiIGZpbGw9InJnYmEoMzQsMTk3LDk0LDAuOSkiLz4KPGNpcmNsZSBjeD0iNzAwIiBjeT0iNDIwIiByPSI0MCIgZmlsbD0icmdiYSgzNCwxOTcsOTQsMC45KSIvPgo8Y2lyY2xlIGN4PSI1MDAiIGN5PSI0NjAiIHI9IjM1IiBmaWxsPSJyZ2JhKDM0LDE5Nyw5NCwwLjkpIi8+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjQ1MCIgcj0iMjUiIGZpbGw9InJnYmEoMzQsMTk3LDk0LDAuOSkiLz4KPHJlY3QgeD0iOTgiIHk9IjQ3MCIgd2lkdGg9IjQiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMTM5LDY5LDE5LDAuOSkiLz4KPHJlY3QgeD0iNjk4IiB5PSI0NjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjUwIiBmaWxsPSJyZ2JhKDEzOSw2OSwxOSwwLjkpIi8+CjxyZWN0IHg9IjQ5OCIgeT0iNDk1IiB3aWR0aD0iNCIgaGVpZ2h0PSI0NSIgZmlsbD0icmdiYSgxMzksNjksMTksMC45KSIvPgo8cmVjdCB4PSIyOTgiIHk9IjQ3NSIgd2lkdGg9IjQiIGhlaWdodD0iMzUiIGZpbGw9InJnYmEoMTM5LDY5LDE5LDAuOSkiLz4KPCEtLSBXYXRlcmZhbGwgLS0+CjxyZWN0IHg9IjM5MCIgeT0iMTAwIiB3aWR0aD0iMjAiIGhlaWdodD0iMzAwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuNikiLz4KPC9zdmc+" alt="Hill Station Beauty" loading="lazy">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI4MDAiIHkyPSI2MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkY5NTAwIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGNTcyMiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEJ1cyAtLT4KPHJlY3QgeD0iMjAwIiB5PSIyNTAiIHdpZHRoPSI0MDAiIGhlaWdodD0iMTIwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSIxNSIvPgo8cmVjdCB4PSIyMjAiIHk9IjIyMCIgd2lkdGg9IjM2MCIgaGVpZ2h0PSI2MCIgZmlsbD0icmdiYSgyMDAsMjAwLDIwMCwwLjkpIiByeD0iMTAiLz4KPCEtLSBXaW5kb3dzIC0tPgo8cmVjdCB4PSIyNDAiIHk9IjIzNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC43KSIvPgo8cmVjdCB4PSIzMDAiIHk9IjIzNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC43KSIvPgo8cmVjdCB4PSIzNjAiIHk9IjIzNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC43KSIvPgo8cmVjdCB4PSI0MjAiIHk9IjIzNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC43KSIvPgo8cmVjdCB4PSI0ODAiIHk9IjIzNSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC43KSIvPgo8cmVjdCB4PSI1NDAiIHk9IjIzNSIgd2lkdGg9IjMwIiBoZWlnaHQ9IjMwIiBmaWxsPSJyZ2JhKDU5LDEzMCwyNDYsMC43KSIvPgo8IS0tIERvb3IgLS0+CjxyZWN0IHg9IjU4MCIgeT0iMjgwIiB3aWR0aD0iMjAiIGhlaWdodD0iOTAiIGZpbGw9InJnYmEoMTM5LDY5LDE5LDAuOCkiLz4KPCEtLSBXaGVlbHMgLS0+CjxjaXJjbGUgY3g9IjI1MCIgY3k9IjM5MCIgcj0iMjUiIGZpbGw9InJnYmEoNTUsNjUsODEsMC45KSIvPgo8Y2lyY2xlIGN4PSI1NTAiIGN5PSIzOTAiIHI9IjI1IiBmaWxsPSJyZ2JhKDU1LDY1LDgxLDAuOSkiLz4KPGNpcmNsZSBjeD0iMjUwIiBjeT0iMzkwIiByPSIxNSIgZmlsbD0icmdiYSgxNTYsMTYzLDE3NSwwLjkpIi8+CjxjaXJjbGUgY3g9IjU1MCIgY3k9IjM5MCIgcj0iMTUiIGZpbGw9InJnYmEoMTU2LDE2MywxNzUsMC45KSIvPgo8IS0tIFBlb3BsZSBpbnNpZGUgLS0+CjxjaXJjbGUgY3g9IjI2MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9InJnYmEoMjUxLDE5MSwzNiwwLjgpIi8+CjxjaXJjbGUgY3g9IjMyMCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9InJnYmEoMjUxLDE5MSwzNiwwLjgpIi8+CjxjaXJjbGUgY3g9IjM4MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9InJnYmEoMjUxLDE5MSwzNiwwLjgpIi8+CjxjaXJjbGUgY3g9IjQ0MCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9InJnYmEoMjUxLDE5MSwzNiwwLjgpIi8+CjxjaXJjbGUgY3g9IjUwMCIgY3k9IjI1MCIgcj0iMTAiIGZpbGw9InJnYmEoMjUxLDE5MSwzNiwwLjgpIi8+CjwhLS0gUm9hZCAtLT4KPHJlY3QgeD0iMCIgeT0iNDIwIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwIiBmaWxsPSJyZ2JhKDc1LDg1LDk5LDAuOCkiLz4KPCEtLSBSb2FkIE1hcmtpbmdzIC0tPgo8cmVjdCB4PSIwIiB5PSI0NDgiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPHJlY3QgeD0iMTYwIiB5PSI0NDgiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPHJlY3QgeD0iMzIwIiB5PSI0NDgiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPHJlY3QgeD0iNDgwIiB5PSI0NDgiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPHJlY3QgeD0iNjQwIiB5PSI0NDgiIHdpZHRoPSI4MCIgaGVpZ2h0PSI0IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOCkiLz4KPC9zdmc+" alt="Travel Experience" loading="lazy">
+                    </div>
+                    <div class="gallery-image">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjYwMCIgdmlld0JveD0iMCAwIDgwMCA2MDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSI4MDAiIHkyPSI2MDAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkJCRjI0Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0Y1OUUwQiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEhhcHB5IEZhbWlseSAtLT4KPGNpcmNsZSBjeD0iMjAwIiBjeT0iMjUwIiByPSIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIi8+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjI0MCIgcj0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8Y2lyY2xlIGN4PSI0MDAiIGN5PSIyNjAiIHI9IjIwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiLz4KPGNpcmNsZSBjeD0iNTAwIiBjeT0iMjUwIiByPSIyMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIi8+CjxjaXJjbGUgY3g9IjYwMCIgY3k9IjI0NSIgcj0iMzAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIvPgo8IS0tIEJvZGllcyAtLT4KPHJlY3QgeD0iMTgwIiB5PSIyODAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI4MCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIiByeD0iNSIvPgo8cmVjdCB4PSIyODAiIHk9IjI3MCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjgwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSI1Ii8+CjxyZWN0IHg9IjM5MCIgeT0iMjgwIiB3aWR0aD0iMjAiIGhlaWdodD0iNTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIgcng9IjMiLz4KPHJlY3QgeD0iNDkwIiB5PSIyNzAiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1MCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIiByeD0iMyIvPgo8cmVjdCB4PSI1ODAiIHk9IjI3NSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjgwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSI1Ii8+CjwhLS0gQXJtcyByYWlzZWQgaW4gY2VsZWJyYXRpb24gLS0+CjxyZWN0IHg9IjE2MCIgeT0iMjkwIiB3aWR0aD0iMTUiIGhlaWdodD0iNDAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSIgcng9IjMiIHRyYW5zZm9ybT0icm90YXRlKC00NSAxNjAgMjkwKSIvPgo8cmVjdCB4PSIyNDAiIHk9IjI5MCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSIzIiB0cmFuc2Zvcm09InJvdGF0ZSg0NSAyNDAgMjkwKSIvPgo8cmVjdCB4PSIzNDAiIHk9IjI5MCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjQwIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuOSkiIHJ4PSIzIiB0cmFuc2Zvcm09InJvdGF0ZSgtNDUgMzQwIDI5MCkiLz4KPHJlY3QgeD0iNjQwIiB5PSIyOTAiIHdpZHRoPSIxNSIgaGVpZ2h0PSI0MCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjkpIiByeD0iMyIgdHJhbnNmb3JtPSJyb3RhdGUoNDUgNjQwIDI5MCkiLz4KPCEtLSBCYWNrZ3JvdW5kIFRlbXBsZSAtLT4KPHBhdGggZD0iTTQwMCA4MEw0ODAgMTgwSDU2MFYzMjBIMjQwVjE4MEgzMjBMNDAwIDgwWiIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjMpIi8+CjwhLS0gSGVhcnRzIC0tPgo8cGF0aCBkPSJNMTAwIDEwMEMxMDAgOTAgMTEwIDgwIDEyMCA4MFMxNDAgOTAgMTQwIDEwMEMxNDAgMTEwIDEyMCAxMzAgMTIwIDEzMEMxMjAgMTMwIDEwMCAxMTAgMTAwIDEwMFoiIGZpbGw9InJnYmEoMjM5LDY4LDY4LDAuNykiLz4KPHBhdGggZD0iTTY2MCA5MEM2NjAgODAgNjcwIDcwIDY4MCA3MFM3MDAgODAgNzAwIDkwQzcwMCAxMDAgNjgwIDEyMCA2ODAgMTIwQzY4MCAxMjAgNjYwIDEwMCA2NjAgOTBaIiBmaWxsPSJyZ2JhKDIzOSw2OCw2OCwwLjcpIi8+Cjwvc3ZnPg==" alt="Happy Travelers" loading="lazy">
+                    </div>
+                </div>
+
+                <button class="gallery-btn gallery-prev" id="galleryPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="gallery-btn gallery-next" id="galleryNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="gallery-dots" id="galleryDots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                    <button class="dot" data-slide="3"></button>
+                    <button class="dot" data-slide="4"></button>
+                    <button class="dot" data-slide="5"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real experiences from real travelers</p>
+            </div>
+
+            <div class="testimonials-container">
+                <div class="testimonial-slider">
+                    <div class="testimonial-card active">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSIxNTAiIHkyPSIxNTAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjM0I4MkY2Ii8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzEwNDJBNSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNzUiIHI9Ijc1IiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEZhY2UgLS0+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNzUiIHI9IjUwIiBmaWxsPSJyZ2JhKDI1MSwyMDQsMTg2LDAuOSkiLz4KPCEtLSBFeWVzIC0tPgo8Y2lyY2xlIGN4PSI2NSIgY3k9IjY1IiByPSI1IiBmaWxsPSJyZ2JhKDAsMCwwLDAuOCkiLz4KPGNpcmNsZSBjeD0iODUiIGN5PSI2NSIgcj0iNSIgZmlsbD0icmdiYSgwLDAsMCwwLjgpIi8+CjwhLS0gTm9zZSAtLT4KPGVsbGlwc2UgY3g9Ijc1IiBjeT0iNzUiIHJ4PSIzIiByeT0iNSIgZmlsbD0icmdiYSgwLDAsMCwwLjMpIi8+CjwhLS0gTW91dGggLS0+CjxwYXRoIGQ9Ik02NSA4NVE3NSA5NSA4NSA4NSIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDAuOCkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8IS0tIEhhaXIgLS0+CjxwYXRoIGQ9Ik0zNSA0NVE3NSAyNSAxMTUgNDVRMTI1IDc1IDc1IDc1UTI1IDc1IDM1IDQ1WiIgZmlsbD0icmdiYSgwLDAsMCwwLjgpIi8+Cjwvc3ZnPg==" alt="Rajesh Kumar" class="testimonial-image" loading="lazy">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"Excellent service! The Shikharji tour was perfectly organized. Somnath Travels made our pilgrimage memorable and hassle-free."</blockquote>
+                        <div class="testimonial-author">
+                            <h4>Rajesh Kumar</h4>
+                            <p>Dhanbad</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSIxNTAiIHkyPSIxNTAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkY5NTAwIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGNTcyMiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNzUiIHI9Ijc1IiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEZhY2UgLS0+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNzUiIHI9IjUwIiBmaWxsPSJyZ2JhKDI1MSwyMDQsMTg2LDAuOSkiLz4KPCEtLSBFeWVzIC0tPgo8Y2lyY2xlIGN4PSI2NSIgY3k9IjY1IiByPSI1IiBmaWxsPSJyZ2JhKDAsMCwwLDAuOCkiLz4KPGNpcmNsZSBjeD0iODUiIGN5PSI2NSIgcj0iNSIgZmlsbD0icmdiYSgwLDAsMCwwLjgpIi8+CjwhLS0gTm9zZSAtLT4KPGVsbGlwc2UgY3g9Ijc1IiBjeT0iNzUiIHJ4PSIzIiByeT0iNSIgZmlsbD0icmdiYSgwLDAsMCwwLjMpIi8+CjwhLS0gTW91dGggLS0+CjxwYXRoIGQ9Ik02NSA4NVE3NSA5NSA4NSA4NSIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDAuOCkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8IS0tIEhhaXIgKGxvbmdlciBmb3IgZmVtYWxlKSAtLT4KPHBhdGggZD0iTTMwIDQwUTc1IDIwIDEyMCA0MFExMzAgNzUgNzUgNzVRMjAgNzUgMzAgNDBaIiBmaWxsPSJyZ2JhKDEzOSw2OSwxOSwwLjgpIi8+CjxwYXRoIGQ9Ik0zMCA0MFEzMCA5MCA3NSAxMDBRMTIwIDkwIDEyMCA0MFExMzAgNzUgNzUgNzVRMjAgNzUgMzAgNDBaIiBmaWxsPSJyZ2JhKDEzOSw2OSwxOSwwLjYpIi8+Cjwvc3ZnPg==" alt="Priya Sharma" class="testimonial-image" loading="lazy">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"Amazing experience with their car rental service. Clean cars, professional drivers, and very reasonable rates."</blockquote>
+                        <div class="testimonial-author">
+                            <h4>Priya Sharma</h4>
+                            <p>Ranchi</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMF8xIiB4MT0iMCIgeTE9IjAiIHgyPSIxNTAiIHkyPSIxNTAiPgo8c3RvcCBzdG9wLWNvbG9yPSIjMTBCOTgxIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OUY0NiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNzUiIHI9Ijc1IiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMF8xKSIvPgo8IS0tIEZhY2UgLS0+CjxjaXJjbGUgY3g9Ijc1IiBjeT0iNzUiIHI9IjUwIiBmaWxsPSJyZ2JhKDI1MSwyMDQsMTg2LDAuOSkiLz4KPCEtLSBFeWVzIC0tPgo8Y2lyY2xlIGN4PSI2NSIgY3k9IjY1IiByPSI1IiBmaWxsPSJyZ2JhKDAsMCwwLDAuOCkiLz4KPGNpcmNsZSBjeD0iODUiIGN5PSI2NSIgcj0iNSIgZmlsbD0icmdiYSgwLDAsMCwwLjgpIi8+CjwhLS0gTm9zZSAtLT4KPGVsbGlwc2UgY3g9Ijc1IiBjeT0iNzUiIHJ4PSIzIiByeT0iNSIgZmlsbD0icmdiYSgwLDAsMCwwLjMpIi8+CjwhLS0gTW91dGggLS0+CjxwYXRoIGQ9Ik02NSA4NVE3NSA5NSA4NSA4NSIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDAuOCkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPgo8IS0tIEhhaXIgLS0+CjxwYXRoIGQ9Ik0zNSA0NVE3NSAyNSAxMTUgNDVRMTI1IDc1IDc1IDc1UTI1IDc1IDM1IDQ1WiIgZmlsbD0icmdiYSgwLDAsMCwwLjgpIi8+CjwhLS0gTXVzdGFjaGUgLS0+CjxwYXRoIGQ9Ik02NSA4MEw4NSA4MCIgc3Ryb2tlPSJyZ2JhKDAsMCwwLDAuOCkiIHN0cm9rZS13aWR0aD0iMyIvPgo8L3N2Zz4=" alt="Amit Jain" class="testimonial-image" loading="lazy">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <blockquote>"Local expertise at its best! They know all the hidden gems around Giridih. Highly recommended for family trips."</blockquote>
+                        <div class="testimonial-author">
+                            <h4>Amit Jain</h4>
+                            <p>Giridih</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="testimonial-btn testimonial-prev" id="testimonialPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="testimonial-btn testimonial-next" id="testimonialNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="testimonial-dots" id="testimonialDots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch for your next adventure</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="card">
+                        <h3>Get In Touch</h3>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Address</h4>
+                                <p>Somnath Travels, Main Road<br>Giridih, Jharkhand - 815301</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 7677854525<br>+91 87654 32109</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>info@somnathtravel.com<br>booking@somnathtravel.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/917677854525" class="btn btn-outline" target="_blank">Chat with us on WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-section">
+                    <div class="card">
+                        <h3>Send us a Message</h3>
+
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contact-name">Name *</label>
+                                    <input type="text" id="contact-name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-phone">Phone *</label>
+                                    <input type="tel" id="contact-phone" name="phone" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" name="email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-subject">Subject</label>
+                                <input type="text" id="contact-subject" name="subject">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message">Message *</label>
+                                <textarea id="contact-message" name="message" rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-section">
+                <div class="card">
+                    <h3>Find Us on Map</h3>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58369.89364181205!2d86.26472!3d24.1875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0a7c8f8888889%3A0x1234567890abcdef!2sGiridih%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                            width="100%"
+                            height="400"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-mountain"></i>
+                        <div class="footer-logo-text">
+                            <h3>Somnath Travels</h3>
+                            <p>Giridih, Jharkhand</p>
+                        </div>
+                    </div>
+                    <p>Your trusted partner for spiritual journeys and scenic adventures in Jharkhand and beyond.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#packages">Tour Packages</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Pilgrimage Tours</li>
+                        <li>Car Rentals</li>
+                        <li>Group Packages</li>
+                        <li>Hotel Bookings</li>
+                        <li>Custom Itineraries</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +91 7677854525</p>
+                        <p><i class="fas fa-envelope"></i> info@somnathtravel.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Giridih, Jharkhand</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Somnath Travels, Giridih. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/917677854525" class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
