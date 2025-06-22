@@ -1,0 +1,29 @@
+SOMNATH TRAVELS - IMAGE REQUIREMENTS
+
+This folder should contain the following images for the website to work properly:
+
+REQUIRED IMAGES:
+1. hero-bg.jpg (1920x1080) - Main hero background image of Shikharji temple or scenic view
+2. office-team.jpg (600x400) - Photo of Somnath Travels office or team
+3. shikharji-package.jpg (400x300) - Shikharji pilgrimage package image
+4. bodh-gaya-package.jpg (400x300) - Bodh Gaya tour package image
+5. hill-station-package.jpg (400x300) - Hill station package image
+6. car-rental-package.jpg (400x300) - Car rental service image
+7. gallery-1.jpg (800x600) - Gallery image 1
+8. gallery-2.jpg (800x600) - Gallery image 2
+9. gallery-3.jpg (800x600) - Gallery image 3
+10. gallery-4.jpg (800x600) - Gallery image 4
+11. gallery-5.jpg (800x600) - Gallery image 5
+12. gallery-6.jpg (800x600) - Gallery image 6
+13. customer-1.jpg (150x150) - Customer testimonial photo 1
+14. customer-2.jpg (150x150) - Customer testimonial photo 2
+15. customer-3.jpg (150x150) - Customer testimonial photo 3
+
+IMAGE SOURCES:
+- Use free stock photos from Unsplash, Pexels, or Pixabay
+- Search terms: "indian temple", "pilgrimage", "travel", "jharkhand", "car rental", "happy customers"
+- Ensure images are high quality and relevant to travel/pilgrimage theme
+
+FALLBACK:
+If images are not available, the website will show placeholder images automatically.
+The site is fully functional without custom images.
